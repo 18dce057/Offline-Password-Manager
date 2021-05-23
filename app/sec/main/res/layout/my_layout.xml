@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_bg"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:paddingTop="38dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="5dp"
+        android:src="@drawable/delete" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Application"
+        android:text="Application"
+        android:textSize="25dp"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp" />
+    <TextView
+        android:id="@+id/user"
+        android:paddingTop="7dp"
+        android:gravity="bottom"
+        android:paddingStart="15dp"
+        android:layout_below="@id/Application"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username : "
+        android:textSize="18sp"
+        android:paddingLeft="15dp" />
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@id/Application"
+        android:textSize="25sp"
+        android:layout_toEndOf="@id/pass"
+        android:layout_toRightOf="@id/pass" />
+    <TextView
+        android:id="@+id/pass"
+        android:paddingTop="7dp"
+        android:gravity="bottom"
+        android:paddingStart="18dp"
+        android:layout_below="@id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password : "
+        android:textSize="18sp"
+        android:paddingLeft="18dp" />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@id/username"
+        android:textSize="25sp"
+        android:layout_toEndOf="@id/pass"
+        android:layout_toRightOf="@id/pass" />
+</RelativeLayout>

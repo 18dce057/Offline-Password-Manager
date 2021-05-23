@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="350dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="320dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/delete_bg"
+
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Delete your password"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#040304"
+            android:textSize="20dp" />
+
+
+                <Button
+            android:id="@+id/buttondelete"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bt_border"
+            android:text="DELETE"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttoncancle"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bt_border"
+            android:text="CANCLE"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

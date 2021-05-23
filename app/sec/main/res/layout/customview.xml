@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="700dp"
+
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/add_pwd"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="𝗔𝗱𝗱 𝗗𝗮𝘁𝗮"
+            android:textAlignment="center"
+            android:textColor="#040304"
+            android:textSize="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <EditText
+        android:id="@+id/add_appname"
+        android:layout_width="260dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="13dp"
+        android:background="@drawable/name"
+        android:drawableLeft="@drawable/app"
+        android:hint="  𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗡𝗮𝗺𝗲"/>
+    <EditText
+        android:id="@+id/add_username"
+        android:layout_width="260dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="13dp"
+        android:background="@drawable/name"
+        android:drawableLeft="@drawable/user"
+        android:hint="  𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲"/>
+
+
+        <EditText
+            android:id="@+id/add_password"
+            android:layout_width="260dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="13dp"
+            android:background="@drawable/name"
+            android:drawableLeft="@drawable/lock"
+            android:hint=" 𝗣𝗮𝘀𝘀𝘄𝗼𝗿𝗱"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonok"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bt_border"
+            android:text="𝗢𝗞"
+            android:textSize="30dp"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+</LinearLayout>
